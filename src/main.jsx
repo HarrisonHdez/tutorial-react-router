@@ -26,12 +26,12 @@ import { action as destroyAction } from "./routes/destroy";
 
 
 import Index from "./routes/index";
-
-
+  
+   
 const router = createBrowserRouter([
-  {
-    path: "/",
-    element: <Root />,
+  {     
+    path: "/",  
+    element: <Root />, 
     errorElement: <ErrorPage />,
     loader: rootLoader,
     action: rootAction,     
